@@ -1,0 +1,54 @@
+{
+  "name": "test_mul_normal[mul_normal_data2]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "mul_normal_data",
+      "value": "[-1, -1, 1]"
+    }
+  ],
+  "start": 1597675959413,
+  "stop": 1597675959414,
+  "uuid": "73f2596a-bcc1-4690-8b2e-cb09367c6701",
+  "historyId": "6f0eeb7ea6f7825fdec07f366faba6ee",
+  "testCaseId": "204ad98eabcd7865fb961a07d1239ad7",
+  "fullName": "test_calc.TestMul#test_mul_normal",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "tag",
+      "value": "mul"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMul"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

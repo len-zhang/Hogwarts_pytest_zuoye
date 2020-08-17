@@ -1,0 +1,62 @@
+{
+  "name": "test_sub_unusual[sub_unusual_data1]",
+  "status": "skipped",
+  "statusDetails": {
+    "message": "TypeError: unsupported operand type(s) for -: 'str' and 'float'",
+    "trace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestSub object at 0x000001FEF971C8D0>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96C42B0>, sub_unusual_data = ['r', 0.2, 'rt']\n\n    @pytest.mark.xfail(raises=TypeError)  # 预估返回类型错误\n    def test_sub_unusual(self, calc_init, sub_unusual_data):\n>       result = calc_init.sub(sub_unusual_data[0], sub_unusual_data[1])\n\ntest_calc.py:72: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96C42B0>, a = 'r', b = 0.2\n\n    def sub(self, a, b):\n>       return a - b\nE       TypeError: unsupported operand type(s) for -: 'str' and 'float'\n\n..\\sourcecode\\calc_code.py:8: TypeError"
+  },
+  "parameters": [
+    {
+      "name": "sub_unusual_data",
+      "value": "['r', 0.2, 'rt']"
+    }
+  ],
+  "start": 1597675959392,
+  "stop": 1597675959392,
+  "uuid": "b65ff5f3-ee2f-4333-a4b3-5bc8552f8104",
+  "historyId": "a064d5fdbb9562c0b477cd715b2eed99",
+  "testCaseId": "2afb5eaf4ce50720d38f82604adfdc3f",
+  "fullName": "test_calc.TestSub#test_sub_unusual",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "tag",
+      "value": "sub"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSub"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

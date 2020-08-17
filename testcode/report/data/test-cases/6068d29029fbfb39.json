@@ -1,0 +1,157 @@
+{
+  "uid": "6068d29029fbfb39",
+  "name": "test_div_unusual2[c]",
+  "fullName": "test_calc.TestDiv#test_div_unusual2",
+  "historyId": "afa0119304de0b80bccffd462ef0387c",
+  "time": {
+    "start": 1597675959459,
+    "stop": 1597675959459,
+    "duration": 0
+  },
+  "status": "skipped",
+  "statusMessage": "TypeError: unsupported operand type(s) for /: 'str' and 'str'",
+  "statusTrace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestDiv object at 0x000001FEF973E7F0>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96B1F60>, div_unusual_data2 = 'c'\n\n    @pytest.mark.xfail(raises=TypeError)\n    def test_div_unusual2(self, calc_init, div_unusual_data2):\n>       result = calc_init.div(div_unusual_data2[0], div_unusual_data2[0])\n\ntest_calc.py:55: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96B1F60>, a = 'c', b = 'c'\n\n    def div(self, a, b):\n>       return a / b\nE       TypeError: unsupported operand type(s) for /: 'str' and 'str'\n\n..\\sourcecode\\calc_code.py:14: TypeError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "calc_init",
+      "time": {
+        "start": 1597675959429,
+        "stop": 1597675959429,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "hasContent": false,
+      "stepsCount": 0
+    },
+    {
+      "name": "div_unusual_data2",
+      "time": {
+        "start": 1597675959459,
+        "stop": 1597675959459,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "testStage": {
+    "status": "skipped",
+    "statusMessage": "TypeError: unsupported operand type(s) for /: 'str' and 'str'",
+    "statusTrace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestDiv object at 0x000001FEF973E7F0>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96B1F60>, div_unusual_data2 = 'c'\n\n    @pytest.mark.xfail(raises=TypeError)\n    def test_div_unusual2(self, calc_init, div_unusual_data2):\n>       result = calc_init.div(div_unusual_data2[0], div_unusual_data2[0])\n\ntest_calc.py:55: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96B1F60>, a = 'c', b = 'c'\n\n    def div(self, a, b):\n>       return a / b\nE       TypeError: unsupported operand type(s) for /: 'str' and 'str'\n\n..\\sourcecode\\calc_code.py:14: TypeError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "11f5c265d236ecce",
+        "name": "stdout",
+        "source": "11f5c265d236ecce.txt",
+        "type": "text/plain",
+        "size": 19
+      }
+    ],
+    "parameters": [],
+    "shouldDisplayMessage": true,
+    "attachmentsCount": 1,
+    "hasContent": true,
+    "stepsCount": 0
+  },
+  "afterStages": [
+    {
+      "name": "calc_init::0",
+      "time": {
+        "start": 1597675959463,
+        "stop": 1597675959464,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDiv"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "div_unusual_data2",
+      "value": "'c'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "div",
+      "run(order=4)",
+      "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    ]
+  },
+  "source": "6068d29029fbfb39.json",
+  "parameterValues": [
+    "'c'"
+  ]
+}

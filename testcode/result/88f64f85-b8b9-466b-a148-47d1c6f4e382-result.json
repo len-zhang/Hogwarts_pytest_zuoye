@@ -1,0 +1,54 @@
+{
+  "name": "test_add_float[add_float_data1]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "add_float_data",
+      "value": "[1, 4.11, 5.11]"
+    }
+  ],
+  "start": 1597675959338,
+  "stop": 1597675959338,
+  "uuid": "1046f691-06ee-4c20-8c9e-4350899a8503",
+  "historyId": "930b9f1cc2a1da5b77a43f2047139e49",
+  "testCaseId": "a979f44614c2960026fe89d4b8185e0e",
+  "fullName": "test_calc.TestAdd#test_add_float",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAdd"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

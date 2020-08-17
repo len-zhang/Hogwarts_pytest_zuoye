@@ -1,0 +1,69 @@
+{
+  "name": "test_sub_unusual[sub_unusual_data2]",
+  "status": "skipped",
+  "statusDetails": {
+    "message": "TypeError: unsupported operand type(s) for -: 'str' and 'str'",
+    "trace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestSub object at 0x000001FEF97186D8>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96C42B0>, sub_unusual_data = ['rt', 't', 'r']\n\n    @pytest.mark.xfail(raises=TypeError)  # 预估返回类型错误\n    def test_sub_unusual(self, calc_init, sub_unusual_data):\n>       result = calc_init.sub(sub_unusual_data[0], sub_unusual_data[1])\n\ntest_calc.py:72: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96C42B0>, a = 'rt', b = 't'\n\n    def sub(self, a, b):\n>       return a - b\nE       TypeError: unsupported operand type(s) for -: 'str' and 'str'\n\n..\\sourcecode\\calc_code.py:8: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "786f7f8d-a781-4fc9-89cc-f74971c4fd7c-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "sub_unusual_data",
+      "value": "['rt', 't', 'r']"
+    }
+  ],
+  "start": 1597675959399,
+  "stop": 1597675959399,
+  "uuid": "ca43ed5e-1c13-4dda-9d0d-7edc5fb1bf72",
+  "historyId": "ca523e135bb68b8f88df35d1d4ed0801",
+  "testCaseId": "2afb5eaf4ce50720d38f82604adfdc3f",
+  "fullName": "test_calc.TestSub#test_sub_unusual",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "tag",
+      "value": "sub"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSub"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

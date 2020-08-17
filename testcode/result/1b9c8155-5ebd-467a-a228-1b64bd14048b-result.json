@@ -1,0 +1,69 @@
+{
+  "name": "test_add_unusual[add_unusual_data1]",
+  "status": "skipped",
+  "statusDetails": {
+    "message": "TypeError: can only concatenate str (not \"float\") to str",
+    "trace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestAdd object at 0x000001FEF9737048>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96C4390>, add_unusual_data = ['r', 0.2, 'rt']\n\n    @pytest.mark.xfail(raises=TypeError)  # 预估返回类型错误\n    def test_add_unusual(self, calc_init, add_unusual_data):\n>       result = calc_init.add(add_unusual_data[0], add_unusual_data[1])\n\ntest_calc.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96C4390>, a = 'r', b = 0.2\n\n    def add(self, a, b):\n>       return a + b\nE       TypeError: can only concatenate str (not \"float\") to str\n\n..\\sourcecode\\calc_code.py:5: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "4da35d4f-6957-44ab-beeb-c0b74e55507d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "add_unusual_data",
+      "value": "['r', 0.2, 'rt']"
+    }
+  ],
+  "start": 1597675959364,
+  "stop": 1597675959364,
+  "uuid": "c9243cd5-0819-4457-a42a-ed4daf0b4984",
+  "historyId": "9cb92bcb163b7f08cca96fdc1a758e28",
+  "testCaseId": "39cc83b2d6789bf4f5a780548c3cf492",
+  "fullName": "test_calc.TestAdd#test_add_unusual",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAdd"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

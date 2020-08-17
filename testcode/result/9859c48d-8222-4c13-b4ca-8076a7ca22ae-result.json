@@ -1,0 +1,69 @@
+{
+  "name": "test_mul_unusual[mul_unusual_data0]",
+  "status": "skipped",
+  "statusDetails": {
+    "message": "TypeError: can't multiply sequence by non-int of type 'str'",
+    "trace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestMul object at 0x000001FEF9737908>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF9737D30>, mul_unusual_data = ['a', 'b', 'c']\n\n    @pytest.mark.xfail(raises=TypeError)\n    def test_mul_unusual(self, calc_init, mul_unusual_data):\n>       result = calc_init.mul(mul_unusual_data[0], mul_unusual_data[0])\n\ntest_calc.py:90: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF9737D30>, a = 'a', b = 'a'\n\n    def mul(self, a, b):\n>       return a * b\nE       TypeError: can't multiply sequence by non-int of type 'str'\n\n..\\sourcecode\\calc_code.py:11: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "e7c1f502-75b2-4ac5-8558-b6e20564890c-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "mul_unusual_data",
+      "value": "['a', 'b', 'c']"
+    }
+  ],
+  "start": 1597675959421,
+  "stop": 1597675959421,
+  "uuid": "7f5a203a-e70f-4d0e-8473-c157b39c0c14",
+  "historyId": "9da6937c0118fc992d54a4fb58bf3495",
+  "testCaseId": "fb1b4f7d9c1bfc2fac09a7b14f3ac671",
+  "fullName": "test_calc.TestMul#test_mul_unusual",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "tag",
+      "value": "mul"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMul"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

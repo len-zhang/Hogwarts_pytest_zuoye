@@ -1,0 +1,62 @@
+{
+  "name": "test_div_unusual2[a]",
+  "status": "skipped",
+  "statusDetails": {
+    "message": "TypeError: unsupported operand type(s) for /: 'str' and 'str'",
+    "trace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestDiv object at 0x000001FEF968D710>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96B1F60>, div_unusual_data2 = 'a'\n\n    @pytest.mark.xfail(raises=TypeError)\n    def test_div_unusual2(self, calc_init, div_unusual_data2):\n>       result = calc_init.div(div_unusual_data2[0], div_unusual_data2[0])\n\ntest_calc.py:55: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96B1F60>, a = 'a', b = 'a'\n\n    def div(self, a, b):\n>       return a / b\nE       TypeError: unsupported operand type(s) for /: 'str' and 'str'\n\n..\\sourcecode\\calc_code.py:14: TypeError"
+  },
+  "parameters": [
+    {
+      "name": "div_unusual_data2",
+      "value": "'a'"
+    }
+  ],
+  "start": 1597675959447,
+  "stop": 1597675959447,
+  "uuid": "e2ba7dd2-fe59-432f-a08d-5b7aa6b1bf15",
+  "historyId": "1bba7789f85c33bcbd5f117effcdb08c",
+  "testCaseId": "ff00e464e9313b6d2f32a48c9751abbd",
+  "fullName": "test_calc.TestDiv#test_div_unusual2",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDiv"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "uuid": "dc097a9b-da75-42bc-b2a4-efd5e5fb280c",
+  "children": [
+    "f7af01b6-dd62-4978-9f9c-01f4cde5ea93"
+  ],
+  "befores": [
+    {
+      "name": "mul_normal_data",
+      "status": "passed",
+      "start": 1597675959407,
+      "stop": 1597675959408
+    }
+  ],
+  "start": 1597675959407,
+  "stop": 1597675959409
+}

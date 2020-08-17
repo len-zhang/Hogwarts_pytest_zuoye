@@ -1,0 +1,54 @@
+{
+  "name": "test_sub_normal[sub_normal_data2]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "sub_normal_data",
+      "value": "[-1, 1, -2]"
+    }
+  ],
+  "start": 1597675959378,
+  "stop": 1597675959378,
+  "uuid": "89a182ec-9b3e-4469-86f4-917090fd639b",
+  "historyId": "50cd1a720bfc3f9ccc1f01c9a5ab3ebe",
+  "testCaseId": "b4afcbb88284ab99c31c48d9a73df8b7",
+  "fullName": "test_calc.TestSub#test_sub_normal",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "sub"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSub"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

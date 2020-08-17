@@ -1,0 +1,62 @@
+{
+  "name": "test_add_unusual[add_unusual_data0]",
+  "status": "skipped",
+  "statusDetails": {
+    "message": "TypeError: can only concatenate str (not \"int\") to str",
+    "trace": "self = <Hogwarts_pytest_zuoye.testcode.test_calc.TestAdd object at 0x000001FEF96C4E10>, calc_init = <sourcecode.calc_code.Calculator object at 0x000001FEF96C4390>, add_unusual_data = ['r', 0, 'rt']\n\n    @pytest.mark.xfail(raises=TypeError)  # 预估返回类型错误\n    def test_add_unusual(self, calc_init, add_unusual_data):\n>       result = calc_init.add(add_unusual_data[0], add_unusual_data[1])\n\ntest_calc.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sourcecode.calc_code.Calculator object at 0x000001FEF96C4390>, a = 'r', b = 0\n\n    def add(self, a, b):\n>       return a + b\nE       TypeError: can only concatenate str (not \"int\") to str\n\n..\\sourcecode\\calc_code.py:5: TypeError"
+  },
+  "parameters": [
+    {
+      "name": "add_unusual_data",
+      "value": "['r', 0, 'rt']"
+    }
+  ],
+  "start": 1597675959340,
+  "stop": 1597675959340,
+  "uuid": "437b6731-87ea-4acd-ac3e-ac8eb9c3a073",
+  "historyId": "409377feea60137d863e67840f79f5c6",
+  "testCaseId": "39cc83b2d6789bf4f5a780548c3cf492",
+  "fullName": "test_calc.TestAdd#test_add_unusual",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.xfail(raises=<class 'TypeError'>)"
+    },
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAdd"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

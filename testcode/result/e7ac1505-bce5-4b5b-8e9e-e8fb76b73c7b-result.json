@@ -1,0 +1,62 @@
+{
+  "name": "test_div_random[0-72-0]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0"
+    },
+    {
+      "name": "b",
+      "value": "72"
+    },
+    {
+      "name": "expect",
+      "value": "0"
+    }
+  ],
+  "start": 1597675959438,
+  "stop": 1597675959439,
+  "uuid": "b39a6377-56fc-4c22-9cee-07c05855bdd4",
+  "historyId": "dae708db728461b9b817b40f586e1afd",
+  "testCaseId": "8e2440cb3bde2eb05c03c59765145a1a",
+  "fullName": "test_calc.TestDiv#test_div_random",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDiv"
+    },
+    {
+      "name": "host",
+      "value": "TJ-YF-262JLJ"
+    },
+    {
+      "name": "thread",
+      "value": "4968-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}
